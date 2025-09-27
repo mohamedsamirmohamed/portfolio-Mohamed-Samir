@@ -1,0 +1,115 @@
+.contactSection {
+  min-height: 100vh;
+  padding: 80px 0;
+  transition: all 0.3s ease;
+}
+
+.dark {
+  background: #0d0d1a;
+  color: #fff;
+}
+
+.light {
+  background: #fff;
+  color: #10111c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.titleUnderline {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(45deg, #2ec4f1, #3f8cff);
+  margin: 1rem auto 3rem;
+  border-radius: 2px;
+}
+
+.contactWrapper {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contactInfo {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+}
+
+.contactInfo h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.infoItem {
+  margin: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.socials a {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #2ec4f1;
+}
+
+.contactForm {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  color: inherit;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: 2px solid #2ec4f1;
+}
+
+.contactForm textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contactForm button {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(45deg, #2ec4f1, #3f8cff);
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.contactForm button:hover {
+  background: linear-gradient(45deg, #1faad6, #2a6edb);
+}

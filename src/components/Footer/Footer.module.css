@@ -1,0 +1,15 @@
+.footer {
+  background-color: #0a0c18; /* الخلفية */
+  color: #c5c6d0; /* النص */
+  text-align: center; /* توسيط النص */
+  padding: 15px 25px; /* مسافات داخلية */
+  font-size: 14px;
+  font-family: "Tajawal", sans-serif;
+
+  width: 50%; /* العرض نص الصفحة */
+  margin: 0 auto; /* توسيط العنصر أفقياً */
+  border-radius: 8px; /* حواف دائرية بسيطة */
+}
+.footer p {
+  margin: 0;
+}
